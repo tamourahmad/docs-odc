@@ -37,9 +37,9 @@ Where
 
 `ODC_PORTAL_DOMAIN` is the domain of your organization
 
-1. Retrieve the `token_endpoint` metadata value from the Discovery document. 
+2. Retrieve the `token_endpoint` metadata value from the Discovery document. 
 
-1. Send a POST request to the `token_endpoint` retrieved from Step 2.
+3. Send a POST request to the `token_endpoint` retrieved from Step 2.
 
 <div class="info" markdown="1">
 
@@ -72,7 +72,7 @@ Where
 
 ```
 
-2. The authorization server validates the client credentials received in the request.
+4. The authorization server validates the client credentials received in the request.
 
 If the validation is successful, the authorization server returns an access token. If not, an error message is returned.
 
